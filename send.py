@@ -6,9 +6,9 @@ client = Client(account_sid, auth_token)
 
 def sendSms():
     message = client.messages.create(
-        from_='+17623095671',
+        from_='+17623095671',  # update the no.
         body='Alert!! Intrusion Detected.',
-        to='+18777804236'
+        to='+18777804236' # update the no.
     )
     
     print(message.sid)
