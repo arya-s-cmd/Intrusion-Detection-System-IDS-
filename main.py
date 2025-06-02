@@ -14,7 +14,7 @@ while True:
     if len(imlist) > 0:
         print("Human Detect")
         l.append(1)
-    if len(l) > 50 and flag::
+    if len(l) > 50 and flag:
         flag=False
         send.sendSms()
     cv2.imshow("Output",img)
